@@ -1,0 +1,6 @@
+print("sum")
+n = input("enter number1 :")
+b = input("enter number2 :")
+print(n+b)
+print(n-b)
+print(n*b)
