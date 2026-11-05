@@ -1,0 +1,59 @@
+ss = input("enter the choice you want to play or calculate: ")
+
+if ss == "calculate":
+    print("   **** CALCULATOR ****   ")
+
+    a = int(input("enter the first number: "))
+    c = int(input("enter the second number: "))
+
+    print("what do you want to do with this number")
+    print("1. multiply")
+    print("2. divide")
+    print("3. plus")
+    print("4. minus")
+
+    q = input("enter your choice (1/2/3/4): ")
+
+    if q == "1":
+        print("ans", a * c)
+
+    elif q == "2":
+        if c == 0:
+            print("0 se divide nahi hoga bhai")
+        else:
+            print("ans", a / c)
+
+    elif q == "3":
+        print("ans", a + c)
+
+    elif q == "4":
+        print("ans", a - c)
+
+    else:
+        print("tum se na ho payega")
+
+else:
+    import random
+    print("")
+    print("           *** GAME OF GUESS THE NUMBER ***  ")
+
+    j = int(input("enter the minimum range: "))
+    k = int(input("enter the highest range: "))
+
+    r = random.randint(j, k)
+
+    while True:
+        z = int(input("guess my number: "))
+
+        if z == r:
+            print("you win the game, to end this game")
+            break
+
+        elif z > r:
+            print("your guess is too big")
+
+        elif z < r:
+            print("your guess is too small")
+
+        else:
+            print("tum se na ho payega bas kar bas")
