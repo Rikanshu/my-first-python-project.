@@ -57,3 +57,5 @@ else:
 
         else:
             print("tum se na ho payega bas kar bas")
+
+ gk = input("enter your problem  anything you face in this code ")
