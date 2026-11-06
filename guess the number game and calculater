@@ -1,12 +1,12 @@
 ss = input("enter the choice you want to play or calculate: ")
 
 if ss == "calculate":
-    print("   **** CALCULATOR ****   ")
+    print("     **** CALCULATOR ****     ")
 
     a = int(input("enter the first number: "))
     c = int(input("enter the second number: "))
 
-    print("what do you want to do with this number")
+    print("[what do you want to do with this number]")
     print("1. multiply")
     print("2. divide")
     print("3. plus")
@@ -35,7 +35,7 @@ if ss == "calculate":
 else:
     import random
     print("")
-    print("           *** GAME OF GUESS THE NUMBER ***  ")
+    print("           *** GAME OF GUESS THE NUMBER ***   ")
 
     j = int(input("enter the minimum range: "))
     k = int(input("enter the highest range: "))
