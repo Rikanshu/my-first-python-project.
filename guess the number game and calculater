@@ -7,7 +7,7 @@ if ss == "calculate":
     c = int(input("enter the second number: "))
 
     print("[what do you want to do with this number]")
-    print("1. multiply")
+    print("1. Multiply")
     print("2. Divided")
     print("3. Plus")
     print("4. minus")
