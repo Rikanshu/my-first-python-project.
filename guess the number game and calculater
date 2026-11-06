@@ -18,12 +18,7 @@ if ss == "calculate":
         print("ans", a * c)
 
     elif q == "2":
-        if c == 0:
-            print("0 se divide nahi hoga bhai")
-        else:
-            print("ans", a / c)
-
-    elif q == "3":
+        if c == "0"
         print("ans", a + c)
 
     elif q == "4":
