@@ -51,6 +51,7 @@ else:
             print("your guess is too small")
 
         else:
+
             print("tum se na ho payega bas kar bas")
 
 
