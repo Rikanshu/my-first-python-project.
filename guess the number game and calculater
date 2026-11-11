@@ -19,7 +19,7 @@ if ss == "calculate":
 
     elif q == "2": 
         if c == "0"
-        print("ans", a + c)
+        print("ans", a + c) 
 
     elif q == "4":
         print("ans", a - c)
