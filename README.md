@@ -11,7 +11,7 @@ if kk=="1":
 elif kk =="2":
    print(n-b)
    
-   
+    
 elif kk =="3"
    print(n*b)
 
