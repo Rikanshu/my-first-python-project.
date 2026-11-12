@@ -14,7 +14,7 @@ if ss == "calculate":
 
     q = input("enter your choice (1/2/3/4): ")
 
-    if q == "1":
+    if q == "1": 
         print("ans", a * c)
  
     elif q == "2": 
