@@ -9,7 +9,7 @@ if ss == "calculate":
     print("[what do you want to do with this number]")
     print("1. Multiply")
     print("2. Divided")
-    print("3. Plus")
+    print("3. Plus") 
     print("4. Minus")
 
     q = input("enter your choice (1/2/3/4): ")
