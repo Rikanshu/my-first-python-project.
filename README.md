@@ -13,7 +13,7 @@ elif kk =="2":
     
      
 elif kk =="3"
-   print(n*b) 
+   print(n*b)  
 
    else:
    print("this is incorrect option")
