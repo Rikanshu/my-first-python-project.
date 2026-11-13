@@ -9,7 +9,7 @@ if kk=="1":
    print(n+b)
     
 elif kk =="2": 
-   print(n-b)
+   print(n-b) 
     
      
 elif kk =="3"
