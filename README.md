@@ -12,7 +12,7 @@ elif kk =="2":
    print(n-b)  
    
      
-elif kk =="3"
+elif kk =="3"   
    print(n*b)      
  
    else: 
